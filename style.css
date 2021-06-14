@@ -1,0 +1,679 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: rgb(237, 245, 252);
+}
+
+body {
+  display: grid;
+  grid-template-columns: 320px;
+  grid-template-rows: 480px 270px 250px 450px 480px;
+  justify-content: center;
+  align-items: center;
+  padding: 100px 0px;
+  grid-row-gap: 30px;
+}
+
+.box1 {
+  width: 320px;
+  height: 480px;
+  background: hsl(263, 55%, 52%);
+  border-radius: 15px;
+  position: relative;
+  box-shadow: 5px 5px 20px rgb(184, 184, 184);
+}
+
+.daniel {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  height: 40px;
+  border-radius: 50px;
+  border: 2px solid hsl(263, 55%, 52%, 0.5);
+}
+
+.bigmark {
+  position: absolute;
+  top: 0px;
+  right: 15px;
+  height: 130px;
+  background: transparent;
+}
+
+.profile1 {
+  position: absolute;
+  top: 20px;
+  left: 70px;
+  font-size: 0.8rem;
+=======
+  font-size: 1rem;
+  background: transparent;
+  color: white;
+}
+
+.profile1-sub {
+  position: absolute;
+  top: 40px;
+  left: 70px;
+  font-size: 0.8rem;
+  font-size: 1rem;
+  background: transparent;
+  color: rgb(255, 255, 255, 0.6);
+}
+
+.profile1-h1 {
+  position: absolute;
+  top: 80px;
+  left: 20px;
+  font-size: 1.5rem;
+  line-height: 25px;
+  padding: 0px 20px 0px 0px;
+  background: transparent;
+  color: rgb(255, 255, 255);
+}
+
+.profile1-text {
+  position: absolute;
+  top: 220px;
+  left: 20px;
+  padding-right: 30px;
+  margin: 3rem 0rem 0rem 0rem;
+  font-size: 0.8rem;
+  font-size: 1rem;
+  background: transparent;
+  color: rgb(255, 255, 255, 0.6);
+}
+
+/* dividing line*/
+
+.box2 {
+  width: 320px;
+  height: 270px;
+  background: hsl(217, 19%, 35%);
+  border-radius: 15px;
+  position: relative;
+  box-shadow: 5px 5px 20px rgb(199, 199, 199);
+}
+
+.jon {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  border-radius: 50px;
+  height: 40px;
+}
+
+.profile2 {
+  position: absolute;
+  top: 20px;
+  left: 70px;
+  font-size: 0.8rem;
+  font-size: 1rem;
+  background: transparent;
+  color: white;
+}
+
+.profile2-sub {
+  position: absolute;
+  top: 40px;
+  left: 70px;
+  font-size: 0.8rem;
+  font-size: 1rem;
+  background: transparent;
+  color: rgb(255, 255, 255, 0.6);
+}
+
+.profile2-h2 {
+  position: absolute;
+  top: 80px;
+  left: 20px;
+  font-size: 1.5rem;
+  line-height: 25px;
+  padding: 0px 20px 0px 0px;
+  background: transparent;
+  color: rgb(255, 255, 255);
+}
+
+.profile2-text {
+  position: absolute;
+  top: 115px;
+  left: 20px;
+  padding-right: 30px;
+  margin: 3rem 0rem 0rem 0rem;
+  font-size: 0.8rem;
+  font-size: 1rem;
+  background: transparent;
+  color: rgb(255, 255, 255, 0.6);
+}
+
+/* dividing line*/
+
+.box3 {
+  width: 320px;
+  height: 250px;
+  background: hsl(0, 0%, 100%);
+  border-radius: 15px;
+  position: relative;
+  box-shadow: 5px 5px 20px rgb(206, 206, 206);
+}
+
+.jeanette {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  height: 40px;
+  border-radius: 50px;
+}
+
+.profile3 {
+  position: absolute;
+  top: 20px;
+  left: 70px;
+  font-size: 0.8rem;
+  font-size: 1rem;
+  background: transparent;
+  color: hsl(217, 30%, 34%);
+}
+
+.profile3-sub {
+  position: absolute;
+  top: 40px;
+  left: 70px;
+  font-size: 0.8rem;
+  font-size: 1rem;
+  background: transparent;
+  color: hsl(217, 28%, 34%);
+}
+
+.profile3-h3 {
+  position: absolute;
+  top: 80px;
+  left: 20px;
+  font-size: 1.5rem;
+  line-height: 25px;
+  padding: 0px 20px 0px 0px;
+  background: transparent;
+  color: hsl(217, 30%, 34%);
+}
+
+.profile3-text {
+  position: absolute;
+  background: transparent;
+  color: hsl(217, 28%, 34%);
+
+  top: 115px;
+  left: 20px;
+  padding-right: 30px;
+  margin: 3rem 0rem 0rem 0rem;
+  font-size: 0.8rem;
+  font-size: 1rem;
+}
+
+/* dividing line*/
+
+.box4 {
+  width: 320px;
+  height: 450px;
+  background: hsl(219, 29%, 14%);
+  border-radius: 15px;
+  position: relative;
+  box-shadow: 5px 5px 20px rgb(207, 207, 207);
+}
+
+.patrick {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  height: 40px;
+  border-radius: 50px;
+  border: 2px solid purple;
+}
+
+.profile4 {
+  position: absolute;
+  top: 20px;
+  left: 70px;
+  font-size: 0.8rem;
+  font-size: 1rem;
+  background: transparent;
+  color: white;
+}
+
+.profile4-sub {
+  position: absolute;
+  top: 40px;
+  left: 70px;
+  font-size: 0.8rem;
+  font-size: 1rem;
+  background: transparent;
+  color: rgb(194, 194, 194);
+}
+
+.profile4-h4 {
+  position: absolute;
+  top: 80px;
+  left: 20px;
+  font-size: 1.5rem;
+  line-height: 25px;
+  padding: 0px 20px 0px 0px;
+  background: transparent;
+  color: white;
+}
+
+.profile4-text {
+  position: absolute;
+  background: transparent;
+  color: rgb(194, 194, 194);
+
+  top: 220px;
+  left: 20px;
+  padding-right: 30px;
+  margin: 3rem 0rem 0rem 0rem;
+  font-size: 0.8rem;
+  font-size: 1rem;
+}
+
+/* dividing line*/
+
+.box5 {
+  width: 320px;
+  height: 480px;
+  background: hsl(0, 0%, 100%);
+  border-radius: 15px;
+  position: relative;
+  box-shadow: 5px 5px 20px rgb(209, 209, 209);
+}
+
+:is(.profile5, .profile5-sub, .profile5-h5, .profile5-text) {
+  background: transparent;
+}
+
+.kira {
+  border-radius: 50px;
+  top: 20px;
+  left: 20px;
+  height: 40px;
+  position: absolute;
+}
+
+.profile5 {
+  position: absolute;
+  top: 20px;
+  left: 70px;
+  font-size: 0.8rem;
+  font-size: 1rem;
+  background: transparent;
+  color: hsl(217, 30%, 34%);
+}
+
+.profile5-sub {
+  position: absolute;
+  top: 40px;
+  left: 70px;
+  font-size: 0.8rem;
+  font-size: 1rem;
+  background: transparent;
+  color: rgb(102, 102, 102);
+}
+
+.profile5-h5 {
+  position: absolute;
+  top: 75px;
+  left: 20px;
+  font-size: 1.5rem;
+  line-height: 25px;
+  padding: 0px 20px 0px 0px;
+  background: transparent;
+  color: hsl(217, 30%, 34%);
+}
+
+.profile5-text {
+  position: absolute;
+  background: transparent;
+  color: rgb(102, 102, 102);
+  top: 110px;
+  left: 20px;
+  padding-right: 30px;
+  margin: 3rem 0rem 0rem 0rem;
+  font-size: 0.8rem;
+  font-size: 1rem;
+}
+
+@media screen and (min-width: 500px) and (max-width: 2000px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: rgb(237, 245, 252);
+  }
+
+  body {
+    display: grid;
+    grid-template-columns: 320px 320px 320px 320px;
+    grid-template-rows: 270px 270px;
+    grid-row-gap: 2em;
+    grid-column-gap: 2em;
+    margin: 10em 2em;
+  }
+
+  .box1 {
+    display: grid;
+    grid-area: 1/1 / span 1 / span 2;
+    width: 672px;
+    height: 270px;
+    background: hsl(263, 55%, 52%);
+    border-radius: 15px;
+    position: relative;
+    box-shadow: 5px 5px 20px rgb(184, 184, 184);
+  }
+
+  .daniel {
+    position: absolute;
+    top: 25px;
+    left: 40px;
+    height: 40px;
+    border-radius: 50px;
+    border: 2px solid hsl(263, 55%, 52%, 0.5);
+  }
+
+  .bigmark {
+    position: absolute;
+    top: 0px;
+    right: 30px;
+    height: 130px;
+    background: transparent;
+  }
+
+  .profile1 {
+    position: absolute;
+    top: 27px;
+    left: 90px;
+    font-size: 0.5em;
+    background: transparent;
+    color: white;
+  }
+
+  .profile1-sub {
+    position: absolute;
+    top: 48px;
+    left: 90px;
+    font-size: 0.5em;
+    background: transparent;
+    color: rgb(255, 255, 255, 0.6);
+  }
+
+  .profile1-h1 {
+    position: absolute;
+    top: 80px;
+    left: 20px;
+    font-size: 1em;
+    line-height: 25px;
+    padding: 0px 40px 0px 20px;
+    background: transparent;
+    color: rgb(255, 255, 255);
+  }
+
+  .profile1-text {
+    position: absolute;
+    top: 100px;
+    left: 20px;
+    padding-right: 40px;
+    padding-left: 20px;
+    margin: 3rem 0rem 0rem 0rem;
+    font-size: 0.8em;
+    background: transparent;
+    color: rgb(255, 255, 255, 0.6);
+  }
+
+  /* dividing line*/
+
+  .box2 {
+    width: 320px;
+    height: 270px;
+    background: hsl(217, 19%, 35%);
+    border-radius: 15px;
+    position: relative;
+    box-shadow: 5px 5px 20px rgb(199, 199, 199);
+  }
+
+  .jon {
+    position: absolute;
+    top: 25px;
+    left: 40px;
+    height: 40px;
+    border-radius: 50px;
+  }
+
+  .profile2 {
+    position: absolute;
+    top: 27px;
+    left: 90px;
+    font-size: 0.5em;
+    background: transparent;
+    color: white;
+  }
+
+  .profile2-sub {
+    position: absolute;
+    top: 48px;
+    left: 90px;
+    font-size: 0.5em;
+    background: transparent;
+    color: rgb(255, 255, 255, 0.6);
+  }
+
+  .profile2-h2 {
+    position: absolute;
+    top: 80px;
+    left: 20px;
+    font-size: 1em;
+    line-height: 25px;
+    padding: 0px 40px 0px 20px;
+    background: transparent;
+    color: rgb(255, 255, 255);
+  }
+
+  .profile2-text {
+    position: absolute;
+    top: 100px;
+    left: 20px;
+    padding-right: 40px;
+    padding-left: 20px;
+    margin: 3rem 0rem 0rem 0rem;
+    font-size: 0.8em;
+    background: transparent;
+    color: rgb(255, 255, 255, 0.6);
+  }
+
+  /* dividing line*/
+
+  .box3 {
+    display: grid;
+    grid-area: 2/1 / span 1 / span 1;
+    width: 320px;
+    height: 270px;
+    background: hsl(0, 0%, 100%);
+    border-radius: 15px;
+    position: relative;
+    box-shadow: 5px 5px 20px rgb(206, 206, 206);
+  }
+
+  .jeanette {
+    position: absolute;
+    top: 25px;
+    left: 40px;
+    height: 40px;
+    border-radius: 50px;
+  }
+
+  .profile3 {
+    position: absolute;
+    top: 27px;
+    left: 90px;
+    font-size: 0.5em;
+    background: transparent;
+    color: hsl(217, 30%, 34%);
+  }
+
+  .profile3-sub {
+    position: absolute;
+    top: 48px;
+    left: 90px;
+    font-size: 0.5em;
+    background: transparent;
+    color: hsl(217, 28%, 34%);
+  }
+
+  .profile3-h3 {
+    position: absolute;
+    top: 80px;
+    left: 20px;
+    font-size: 1em;
+    line-height: 25px;
+    padding: 0px 40px 0px 20px;
+    background: transparent;
+    color: hsl(217, 30%, 34%);
+  }
+
+  .profile3-text {
+    position: absolute;
+    top: 100px;
+    left: 20px;
+    padding-right: 40px;
+    padding-left: 20px;
+    margin: 3rem 0rem 0rem 0rem;
+    font-size: 0.8em;
+    background: transparent;
+    color: hsl(217, 28%, 34%);
+  }
+
+  /* dividing line*/
+
+  .box4 {
+    display: grid;
+    grid-area: 2/2 / span 1 / span 2;
+    width: 672px;
+    height: 270px;
+    background: hsl(219, 29%, 14%);
+    border-radius: 15px;
+    position: relative;
+    box-shadow: 5px 5px 20px rgb(207, 207, 207);
+  }
+
+  .patrick {
+    position: absolute;
+    top: 25px;
+    left: 40px;
+    height: 40px;
+    border-radius: 50px;
+    border: 2px solid purple;
+  }
+
+  .profile4 {
+    position: absolute;
+    top: 27px;
+    left: 90px;
+    font-size: 0.5em;
+    background: transparent;
+    color: white;
+  }
+
+  .profile4-sub {
+    position: absolute;
+    top: 48px;
+    left: 90px;
+    font-size: 0.5em;
+    background: transparent;
+    color: rgb(194, 194, 194);
+  }
+
+  .profile4-h4 {
+    position: absolute;
+    top: 80px;
+    left: 20px;
+    font-size: 1em;
+    line-height: 25px;
+    padding: 0px 40px 0px 20px;
+    background: transparent;
+    color: rgb(255, 255, 255);
+  }
+
+  .profile4-text {
+    position: absolute;
+    top: 100px;
+    left: 20px;
+    padding-right: 40px;
+    padding-left: 20px;
+    margin: 3rem 0rem 0rem 0rem;
+    font-size: 0.8em;
+    background: transparent;
+    color: rgb(255, 255, 255, 0.6);
+  }
+
+  /* dividing line*/
+
+  .box5 {
+    display: grid;
+    grid-area: 1/4 / span 2 / span 1;
+    width: 320px;
+    height: 572px;
+    background: hsl(0, 0%, 100%);
+    border-radius: 15px;
+    position: relative;
+    box-shadow: 5px 5px 20px rgb(209, 209, 209);
+  }
+
+  :is(.profile5, .profile5-sub, .profile5-h5, .profile5-text) {
+    background: transparent;
+  }
+
+  .kira {
+    position: absolute;
+    top: 25px;
+    left: 40px;
+    height: 40px;
+    border-radius: 50px;
+  }
+
+  .profile5 {
+    position: absolute;
+    top: 27px;
+    left: 90px;
+    font-size: 0.5em;
+    background: transparent;
+    color: hsl(217, 30%, 34%);
+  }
+
+  .profile5-sub {
+    position: absolute;
+    top: 48px;
+    left: 90px;
+    font-size: 0.5em;
+    background: transparent;
+    color: rgb(102, 102, 102);
+  }
+
+  .profile5-h5 {
+    position: absolute;
+    top: 80px;
+    left: 20px;
+    font-size: 1em;
+    line-height: 25px;
+    padding: 0px 40px 0px 20px;
+    background: transparent;
+    color: hsl(217, 30%, 34%);
+  }
+
+  .profile5-text {
+    position: absolute;
+    top: 120px;
+    left: 20px;
+    padding-right: 40px;
+    padding-left: 20px;
+    margin: 3rem 0rem 0rem 0rem;
+    font-size: 0.8em;
+    background: transparent;
+    color: rgb(102, 102, 102);
+  }
+}
